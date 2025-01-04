@@ -9,6 +9,9 @@ vim.api.nvim_set_hl(0, "Cursor", { fg = "red", bg = "red" })
 
 vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25-Cursor,r-cr-o:hor20"
 
+-- disable list mode
+vim.opt.list = false
+
 -- enable ssh remote copy and paste
 -- the default conf in the help has issues when paste with 'p'
 -- so the below config is from https://github.com/neovim/neovim/discussions/28010#discussioncomment-9877494
