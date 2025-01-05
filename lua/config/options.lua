@@ -35,3 +35,7 @@ vim.g.clipboard = {
     ["*"] = paste,
   },
 }
+
+-- set background to light
+-- because on ipad it defaults to dark while on mac defaults to light
+vim.opt.background = "light"
