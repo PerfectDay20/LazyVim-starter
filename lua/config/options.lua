@@ -38,4 +38,5 @@ vim.g.clipboard = {
 
 -- set background to light
 -- because on ipad it defaults to dark while on mac defaults to light
+-- this also reduce the first screen splash on mac
 vim.opt.background = "light"
