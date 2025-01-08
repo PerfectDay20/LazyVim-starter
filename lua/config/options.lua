@@ -42,4 +42,4 @@ vim.g.clipboard = {
 vim.opt.background = "light"
 
 -- set ui to english
-vim.cmd("language en_US")
+vim.cmd("language C")
