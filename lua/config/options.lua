@@ -5,9 +5,9 @@
 vim.opt.wrap = true
 
 -- change cursor color: https://neovim.io/doc/user/faq.html#faq
-vim.api.nvim_set_hl(0, "Cursor", { fg = "red", bg = "red" })
+vim.api.nvim_set_hl(0, "MyCursor", { fg = "red", bg = "red" })
 
-vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25-Cursor,r-cr-o:hor20"
+vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25-MyCursor,r-cr-o:hor20"
 
 -- disable list mode
 vim.opt.list = false
