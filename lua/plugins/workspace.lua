@@ -3,7 +3,9 @@ return {
   lazy = false,
   opts = {
     hooks = {
-      open = "NvimTreeOpen",
+      open = function()
+        require("neo-tree.command").execute({ toggle = true, dir = vim.uv.cwd() })
+      end,
     },
   },
 }
