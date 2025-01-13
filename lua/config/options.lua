@@ -43,3 +43,11 @@ vim.opt.background = "light"
 
 -- set ui to english
 vim.cmd("language C")
+
+-- disable language provider support (lua and vimscript plugins only)
+-- https://sookocheff.com/post/vim/neovim-java-ide/
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_node_provider = 0
+vim.g.loaded_python_provider = 0
+vim.g.loaded_python3_provider = 0
